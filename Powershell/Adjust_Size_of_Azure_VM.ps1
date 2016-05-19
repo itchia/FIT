@@ -50,7 +50,7 @@ workflow Adjust_Size_of_Azure_VM
     (            
         [parameter(Mandatory=$true)]
         [String]
-        $AzureSubscriptionName = 'enSence - Pay-As-You-Go',
+        $AzureSubscriptionName = 'FIT Enterprise Azure',
 
         [parameter(Mandatory=$true)]
         [PSCredential]
@@ -62,11 +62,11 @@ workflow Adjust_Size_of_Azure_VM
          
         [parameter(Mandatory=$true)]
         [String]
-        $CloudServiceName = 'enSencevm1',
+        $CloudServiceName = 'FITLABS',
                  
         [parameter(Mandatory=$true)]
         [String]
-        $VirtualMachineName = 'enSencevm1'      
+        $VirtualMachineName = 'FITLABSvm1'      
     )
 
 
